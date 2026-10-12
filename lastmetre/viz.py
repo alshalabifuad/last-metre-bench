@@ -61,7 +61,7 @@ def summary_figure(sims, path, titles=None):
         ax.set_title(f"{title}\ntriggers={len(sim.triggers)}  coverage={cov:.0%}  t={sim.t:.0f}s",
                      fontsize=9)
     fig.tight_layout()
-    fig.savefig(path)
+    fig.savefig(path, bbox_inches="tight", pad_inches=0.15)
     plt.close(fig)
 
 
