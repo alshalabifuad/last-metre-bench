@@ -1,0 +1,6 @@
+suspects,processed,placed_ok,contacts,verified_correct,verified_wrong,inconclusive,missed_at_identification,false_alarms_resolved,recovered_on_second_look,seed,survey_coverage,final_coverage,mop_up_time_s,mission_time_s,virtual_triggers_total
+10,6,6,0,6,0,0,0,4,0,1,0.94,1.0,232.0,1390.5,0
+8,5,4,0,5,0,0,0,3,0,2,0.95,1.0,186.7,1282.8,0
+10,6,6,0,6,0,0,0,4,0,3,0.947,0.999,466.4,1630.0,0
+11,8,8,0,8,0,0,1,2,1,4,0.956,0.996,251.5,1533.6,0
+10,6,6,0,6,0,0,0,4,0,5,0.915,0.999,422.3,1513.1,0

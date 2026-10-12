@@ -1,0 +1,1448 @@
+{
+ "1": {
+  "records": [
+   {
+    "estimate": [
+     2.27,
+     10.69
+    ],
+    "t_start": 786.2,
+    "truth_kind": "ied_ap",
+    "item": 1,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.034,
+    "placed_ok": true,
+    "withdraw_dist": 4.91,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.003,
+    "verdict_correct": true,
+    "t_end": 831.5,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     4.27,
+     8.99
+    ],
+    "t_start": 831.5,
+    "truth_kind": "ied_at",
+    "item": 5,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.004,
+    "placed_ok": true,
+    "withdraw_dist": 4.89,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 874.8,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     6.13,
+     10.66
+    ],
+    "t_start": 874.8,
+    "truth_kind": "ied_ap",
+    "item": 0,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.034,
+    "placed_ok": true,
+    "withdraw_dist": 4.88,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.01,
+    "verdict_correct": true,
+    "t_end": 931.1,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     7.25,
+     8.85
+    ],
+    "t_start": 931.1,
+    "truth_kind": "clutter",
+    "item": 9,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     10.86,
+     8.34
+    ],
+    "t_start": 951.7,
+    "truth_kind": "clutter",
+    "item": 7,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     9.37,
+     5.05
+    ],
+    "t_start": 976.6,
+    "truth_kind": "ied_ap",
+    "item": 3,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.048,
+    "placed_ok": true,
+    "withdraw_dist": 4.86,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.003,
+    "verdict_correct": true,
+    "t_end": 1022.4,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     6.5,
+     3.75
+    ],
+    "t_start": 1022.4,
+    "truth_kind": "clutter",
+    "item": 8,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.001,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     6.52,
+     1.09
+    ],
+    "t_start": 1047.6,
+    "truth_kind": "ied_at",
+    "item": 4,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.063,
+    "placed_ok": true,
+    "withdraw_dist": 4.87,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.003,
+    "verdict_correct": true,
+    "t_end": 1087.5,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     2.94,
+     3.54
+    ],
+    "t_start": 1087.5,
+    "truth_kind": "clutter",
+    "item": 6,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     3.99,
+     5.16
+    ],
+    "t_start": 1111.8,
+    "truth_kind": "ied_ap",
+    "item": 2,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.033,
+    "placed_ok": true,
+    "withdraw_dist": 4.91,
+    "neutralised_truth": false,
+    "verdict": "residual hazard -> re-task",
+    "verify_pmax": 0.998,
+    "verdict_correct": true,
+    "t_end": 1158.5,
+    "result": "processed",
+    "pass": 1
+   }
+  ],
+  "events": [
+   [
+    20.0,
+    "SURVEY",
+    "lane 1 blocked -> working it from the other end"
+   ],
+   [
+    111.0,
+    "SURVEY",
+    "lane 2 blocked -> working it from the other end"
+   ],
+   [
+    208.3,
+    "SURVEY",
+    "lane 3 blocked -> working it from the other end"
+   ],
+   [
+    305.9,
+    "SURVEY",
+    "lane 4 blocked -> working it from the other end"
+   ],
+   [
+    444.3,
+    "SURVEY",
+    "lane 6 blocked -> working it from the other end"
+   ],
+   [
+    566.2,
+    "SURVEY",
+    "lane 7 blocked -> working it from the other end"
+   ],
+   [
+    658.7,
+    "SURVEY",
+    "lane 8 blocked -> working it from the other end"
+   ],
+   [
+    831.5,
+    "VERIFY",
+    "item 1: verified neutralised"
+   ],
+   [
+    874.8,
+    "VERIFY",
+    "item 5: verified neutralised"
+   ],
+   [
+    931.1,
+    "VERIFY",
+    "item 0: verified neutralised"
+   ],
+   [
+    942.2,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    967.3,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1022.4,
+    "VERIFY",
+    "item 3: verified neutralised"
+   ],
+   [
+    1038.1,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1087.5,
+    "VERIFY",
+    "item 4: verified neutralised"
+   ],
+   [
+    1102.6,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1158.5,
+    "VERIFY",
+    "item 2: residual hazard -> re-task"
+   ],
+   [
+    1244.2,
+    "MOP-UP SURVEY",
+    "mop-up lane 4 blocked -> working it from the other end"
+   ]
+  ]
+ },
+ "2": {
+  "records": [
+   {
+    "estimate": [
+     9.77,
+     5.36
+    ],
+    "t_start": 763.7,
+    "truth_kind": "clutter",
+    "item": 9,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.001,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     7.5,
+     5.0
+    ],
+    "t_start": 794.7,
+    "truth_kind": "clutter",
+    "item": 8,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     6.65,
+     2.51
+    ],
+    "t_start": 814.1,
+    "truth_kind": "ied_at",
+    "item": 5,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.107,
+    "placed_ok": false,
+    "withdraw_dist": 4.91,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.001,
+    "verdict_correct": true,
+    "t_end": 867.3,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     9.25,
+     1.79
+    ],
+    "t_start": 867.3,
+    "truth_kind": "ied_ap",
+    "item": 1,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.038,
+    "placed_ok": true,
+    "withdraw_dist": 4.92,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.01,
+    "verdict_correct": true,
+    "t_end": 910.6,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     3.53,
+     3.93
+    ],
+    "t_start": 910.6,
+    "truth_kind": "ied_ap",
+    "item": 0,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.048,
+    "placed_ok": true,
+    "withdraw_dist": 4.92,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 970.1,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     3.68,
+     7.62
+    ],
+    "t_start": 970.1,
+    "truth_kind": "ied_at",
+    "item": 4,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.034,
+    "placed_ok": true,
+    "withdraw_dist": 4.89,
+    "neutralised_truth": false,
+    "verdict": "residual hazard -> re-task",
+    "verify_pmax": 0.998,
+    "verdict_correct": true,
+    "t_end": 1014.1,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     4.14,
+     10.43
+    ],
+    "t_start": 1014.1,
+    "truth_kind": "clutter",
+    "item": 7,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.001,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     2.74,
+     1.37
+    ],
+    "t_start": 1039.1,
+    "truth_kind": "ied_ap",
+    "item": 3,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.038,
+    "placed_ok": true,
+    "withdraw_dist": 4.94,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.001,
+    "verdict_correct": true,
+    "t_end": 1096.1,
+    "result": "processed",
+    "pass": 1
+   }
+  ],
+  "events": [
+   [
+    11.1,
+    "SURVEY",
+    "lane 1 blocked -> working it from the other end"
+   ],
+   [
+    115.0,
+    "SURVEY",
+    "lane 2 blocked -> working it from the other end"
+   ],
+   [
+    206.4,
+    "SURVEY",
+    "lane 3 blocked -> working it from the other end"
+   ],
+   [
+    305.7,
+    "SURVEY",
+    "lane 4 blocked -> working it from the other end"
+   ],
+   [
+    397.2,
+    "SURVEY",
+    "lane 5 blocked -> working it from the other end"
+   ],
+   [
+    535.5,
+    "SURVEY",
+    "lane 6 blocked -> working it from the other end"
+   ],
+   [
+    663.1,
+    "SURVEY",
+    "lane 8 blocked -> working it from the other end"
+   ],
+   [
+    785.5,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    804.7,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    867.3,
+    "VERIFY",
+    "item 5: verified neutralised"
+   ],
+   [
+    910.6,
+    "VERIFY",
+    "item 1: verified neutralised"
+   ],
+   [
+    970.1,
+    "VERIFY",
+    "item 0: verified neutralised"
+   ],
+   [
+    1014.1,
+    "VERIFY",
+    "item 4: residual hazard -> re-task"
+   ],
+   [
+    1029.9,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1096.1,
+    "VERIFY",
+    "item 3: verified neutralised"
+   ]
+  ]
+ },
+ "3": {
+  "records": [
+   {
+    "estimate": [
+     0.79,
+     10.91
+    ],
+    "t_start": 810.0,
+    "truth_kind": "clutter",
+    "item": 7,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     5.73,
+     8.81
+    ],
+    "t_start": 826.1,
+    "truth_kind": "clutter",
+    "item": 9,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.001,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     4.87,
+     6.17
+    ],
+    "t_start": 855.6,
+    "truth_kind": "ied_at",
+    "item": 5,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.03,
+    "placed_ok": true,
+    "withdraw_dist": 4.93,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 899.8,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     3.92,
+     4.14
+    ],
+    "t_start": 899.8,
+    "truth_kind": "clutter",
+    "item": 8,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     5.82,
+     2.42
+    ],
+    "t_start": 947.0,
+    "truth_kind": "ied_ap",
+    "item": 3,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.038,
+    "placed_ok": true,
+    "withdraw_dist": 4.9,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 991.3,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     8.44,
+     1.98
+    ],
+    "t_start": 991.3,
+    "truth_kind": "ied_at",
+    "item": 4,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.017,
+    "placed_ok": true,
+    "withdraw_dist": 4.87,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.009,
+    "verdict_correct": true,
+    "t_end": 1033.2,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     9.12,
+     6.82
+    ],
+    "t_start": 1033.2,
+    "truth_kind": "ied_ap",
+    "item": 1,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.04,
+    "placed_ok": true,
+    "withdraw_dist": 4.93,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.006,
+    "verdict_correct": true,
+    "t_end": 1078.1,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     8.54,
+     10.72
+    ],
+    "t_start": 1078.1,
+    "truth_kind": "clutter",
+    "item": 6,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.001,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     1.79,
+     5.32
+    ],
+    "t_start": 1104.4,
+    "truth_kind": "ied_ap",
+    "item": 2,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.014,
+    "placed_ok": true,
+    "withdraw_dist": 4.89,
+    "neutralised_truth": false,
+    "verdict": "residual hazard -> re-task",
+    "verify_pmax": 0.998,
+    "verdict_correct": true,
+    "t_end": 1163.6,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     1.7,
+     3.25
+    ],
+    "t_start": 1557.0,
+    "truth_kind": "ied_ap",
+    "item": 0,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.055,
+    "placed_ok": true,
+    "withdraw_dist": 4.93,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.001,
+    "verdict_correct": true,
+    "t_end": 1630.0,
+    "result": "processed",
+    "pass": 2
+   }
+  ],
+  "events": [
+   [
+    57.7,
+    "SURVEY",
+    "lane 2 blocked -> working it from the other end"
+   ],
+   [
+    149.3,
+    "SURVEY",
+    "lane 3 blocked -> working it from the other end"
+   ],
+   [
+    267.9,
+    "SURVEY",
+    "lane 4 blocked -> working it from the other end"
+   ],
+   [
+    359.5,
+    "SURVEY",
+    "lane 5 blocked -> working it from the other end"
+   ],
+   [
+    457.0,
+    "SURVEY",
+    "lane 6 blocked -> working it from the other end"
+   ],
+   [
+    592.3,
+    "SURVEY",
+    "lane 7 blocked -> working it from the other end"
+   ],
+   [
+    673.9,
+    "SURVEY",
+    "lane 8 blocked -> working it from the other end"
+   ],
+   [
+    787.1,
+    "SURVEY",
+    "lane 9 blocked -> working it from the other end"
+   ],
+   [
+    814.9,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    846.5,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    899.8,
+    "VERIFY",
+    "item 5: verified neutralised"
+   ],
+   [
+    937.9,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    991.3,
+    "VERIFY",
+    "item 3: verified neutralised"
+   ],
+   [
+    1033.2,
+    "VERIFY",
+    "item 4: verified neutralised"
+   ],
+   [
+    1078.1,
+    "VERIFY",
+    "item 1: verified neutralised"
+   ],
+   [
+    1095.0,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1163.6,
+    "VERIFY",
+    "item 2: residual hazard -> re-task"
+   ],
+   [
+    1257.2,
+    "MOP-UP SURVEY",
+    "mop-up lane 3 blocked -> working it from the other end"
+   ],
+   [
+    1310.2,
+    "MOP-UP SURVEY",
+    "mop-up lane 4 blocked -> working it from the other end"
+   ],
+   [
+    1427.2,
+    "MOP-UP SURVEY",
+    "mop-up lane 5 blocked -> working it from the other end"
+   ],
+   [
+    1630.0,
+    "VERIFY",
+    "item 0: verified neutralised"
+   ]
+  ]
+ },
+ "4": {
+  "records": [
+   {
+    "estimate": [
+     10.89,
+     10.44
+    ],
+    "t_start": 909.3,
+    "truth_kind": "ied_at",
+    "item": 5,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.08,
+    "placed_ok": true,
+    "withdraw_dist": 4.9,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 959.8,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     10.6,
+     6.15
+    ],
+    "t_start": 959.8,
+    "truth_kind": "ied_ap",
+    "item": 0,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.004,
+    "placed_ok": true,
+    "withdraw_dist": 4.87,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.008,
+    "verdict_correct": true,
+    "t_end": 1005.0,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     7.17,
+     4.67
+    ],
+    "t_start": 1005.0,
+    "truth_kind": "ied_ap",
+    "item": 2,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.066,
+    "placed_ok": true,
+    "withdraw_dist": 4.95,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.001,
+    "verdict_correct": true,
+    "t_end": 1056.0,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     9.19,
+     2.62
+    ],
+    "t_start": 1056.0,
+    "truth_kind": "ied_ap",
+    "item": 3,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.058,
+    "placed_ok": true,
+    "withdraw_dist": 4.88,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 1099.2,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     10.96,
+     1.66
+    ],
+    "t_start": 1099.2,
+    "truth_kind": "ied_ap",
+    "item": 1,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.022,
+    "placed_ok": true,
+    "withdraw_dist": 4.86,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.007,
+    "verdict_correct": true,
+    "t_end": 1143.3,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     4.46,
+     3.11
+    ],
+    "t_start": 1143.3,
+    "truth_kind": "clutter",
+    "item": 8,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     2.74,
+     7.11
+    ],
+    "t_start": 1178.0,
+    "truth_kind": "clutter",
+    "item": 6,
+    "kind": "clutter",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.046,
+    "placed_ok": true,
+    "withdraw_dist": 4.86,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.016,
+    "verdict_correct": true,
+    "t_end": 1220.3,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     5.28,
+     8.98
+    ],
+    "t_start": 1220.3,
+    "truth_kind": "ied_at",
+    "item": 4,
+    "kind": "ied_at",
+    "call": "clutter",
+    "result": "DEVICE MISSED AT IDENTIFICATION",
+    "after_removal_pmax": 0.998,
+    "redetected": true,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     3.6,
+     10.46
+    ],
+    "t_start": 1240.9,
+    "truth_kind": "clutter",
+    "item": 9,
+    "kind": "clutter",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.039,
+    "placed_ok": true,
+    "withdraw_dist": 4.88,
+    "neutralised_truth": false,
+    "verdict": "residual hazard -> re-task",
+    "verify_pmax": 0.998,
+    "verdict_correct": true,
+    "t_end": 1282.1,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     8.09,
+     10.61
+    ],
+    "t_start": 1474.9,
+    "truth_kind": "clutter",
+    "item": 7,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 2
+   },
+   {
+    "estimate": [
+     5.28,
+     9.01
+    ],
+    "t_start": 1489.3,
+    "truth_kind": "ied_at",
+    "second_look": true,
+    "item": 4,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.062,
+    "placed_ok": true,
+    "withdraw_dist": 4.94,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.003,
+    "verdict_correct": true,
+    "t_end": 1533.6,
+    "result": "processed",
+    "pass": 2
+   }
+  ],
+  "events": [
+   [
+    32.8,
+    "SURVEY",
+    "lane 1 blocked -> working it from the other end"
+   ],
+   [
+    79.5,
+    "SURVEY",
+    "lane 2 blocked -> working it from the other end"
+   ],
+   [
+    193.7,
+    "SURVEY",
+    "lane 3 blocked -> working it from the other end"
+   ],
+   [
+    306.2,
+    "SURVEY",
+    "lane 4 blocked -> working it from the other end"
+   ],
+   [
+    405.1,
+    "SURVEY",
+    "lane 5 blocked -> working it from the other end"
+   ],
+   [
+    508.3,
+    "SURVEY",
+    "lane 6 blocked -> working it from the other end"
+   ],
+   [
+    702.5,
+    "SURVEY",
+    "lane 7 blocked -> working it from the other end"
+   ],
+   [
+    791.5,
+    "SURVEY",
+    "lane 8 blocked -> working it from the other end"
+   ],
+   [
+    959.8,
+    "VERIFY",
+    "item 5: verified neutralised"
+   ],
+   [
+    1005.0,
+    "VERIFY",
+    "item 0: verified neutralised"
+   ],
+   [
+    1056.0,
+    "VERIFY",
+    "item 2: verified neutralised"
+   ],
+   [
+    1099.2,
+    "VERIFY",
+    "item 3: verified neutralised"
+   ],
+   [
+    1143.3,
+    "VERIFY",
+    "item 1: verified neutralised"
+   ],
+   [
+    1168.8,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1220.3,
+    "VERIFY",
+    "item 6: verified neutralised"
+   ],
+   [
+    1229.9,
+    "UNCOVER + IDENTIFY",
+    "DEVICE MISSED AT IDENTIFICATION"
+   ],
+   [
+    1240.9,
+    "RE-SENSE AFTER REMOVAL",
+    "still detected after removal -> will be treated as a device"
+   ],
+   [
+    1282.1,
+    "VERIFY",
+    "item 9: residual hazard -> re-task"
+   ],
+   [
+    1421.3,
+    "MOP-UP SURVEY",
+    "mop-up lane 8 blocked -> working it from the other end"
+   ],
+   [
+    1478.3,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1533.6,
+    "VERIFY",
+    "item 4: verified neutralised"
+   ]
+  ]
+ },
+ "5": {
+  "records": [
+   {
+    "estimate": [
+     5.34,
+     10.94
+    ],
+    "t_start": 758.0,
+    "truth_kind": "ied_at",
+    "item": 5,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.009,
+    "placed_ok": true,
+    "withdraw_dist": 4.89,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.002,
+    "verdict_correct": true,
+    "t_end": 795.6,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     9.1,
+     9.15
+    ],
+    "t_start": 795.6,
+    "truth_kind": "ied_ap",
+    "item": 0,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.013,
+    "placed_ok": true,
+    "withdraw_dist": 4.94,
+    "neutralised_truth": false,
+    "verdict": "residual hazard -> re-task",
+    "verify_pmax": 0.998,
+    "verdict_correct": true,
+    "t_end": 839.6,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     4.95,
+     5.95
+    ],
+    "t_start": 839.6,
+    "truth_kind": "clutter",
+    "item": 6,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     6.19,
+     3.77
+    ],
+    "t_start": 864.1,
+    "truth_kind": "ied_ap",
+    "item": 1,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.062,
+    "placed_ok": true,
+    "withdraw_dist": 4.95,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.004,
+    "verdict_correct": true,
+    "t_end": 904.2,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     5.02,
+     1.25
+    ],
+    "t_start": 904.2,
+    "truth_kind": "ied_ap",
+    "item": 3,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.07,
+    "placed_ok": true,
+    "withdraw_dist": 4.86,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.011,
+    "verdict_correct": true,
+    "t_end": 948.2,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     1.35,
+     4.78
+    ],
+    "t_start": 948.2,
+    "truth_kind": "ied_ap",
+    "item": 2,
+    "kind": "ied_ap",
+    "call": "ied_ap",
+    "contact": false,
+    "gap": 0.064,
+    "placed_ok": true,
+    "withdraw_dist": 4.9,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.0,
+    "verdict_correct": true,
+    "t_end": 993.8,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     1.32,
+     11.17
+    ],
+    "t_start": 993.8,
+    "truth_kind": "ied_at",
+    "item": 4,
+    "kind": "ied_at",
+    "call": "ied_at",
+    "contact": false,
+    "gap": 0.026,
+    "placed_ok": true,
+    "withdraw_dist": 4.9,
+    "neutralised_truth": true,
+    "verdict": "verified neutralised",
+    "verify_pmax": 0.002,
+    "verdict_correct": true,
+    "t_end": 1045.4,
+    "result": "processed",
+    "pass": 1
+   },
+   {
+    "estimate": [
+     10.04,
+     1.51
+    ],
+    "t_start": 1045.4,
+    "truth_kind": "clutter",
+    "item": 8,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 1
+   },
+   {
+    "estimate": [
+     3.12,
+     10.13
+    ],
+    "t_start": 1437.3,
+    "truth_kind": "clutter",
+    "item": 9,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 2
+   },
+   {
+    "estimate": [
+     7.77,
+     1.44
+    ],
+    "t_start": 1476.1,
+    "truth_kind": "clutter",
+    "item": 7,
+    "kind": "clutter",
+    "call": "clutter",
+    "result": "clutter -> handed to operator, no unit placed",
+    "after_removal_pmax": 0.0,
+    "pass": 2
+   }
+  ],
+  "events": [
+   [
+    17.0,
+    "SURVEY",
+    "lane 1 blocked -> working it from the other end"
+   ],
+   [
+    86.9,
+    "SURVEY",
+    "lane 2 blocked -> working it from the other end"
+   ],
+   [
+    194.0,
+    "SURVEY",
+    "lane 3 blocked -> working it from the other end"
+   ],
+   [
+    313.3,
+    "SURVEY",
+    "lane 4 blocked -> working it from the other end"
+   ],
+   [
+    371.9,
+    "SURVEY",
+    "lane 5 blocked -> working it from the other end"
+   ],
+   [
+    520.0,
+    "SURVEY",
+    "lane 7 blocked -> working it from the other end"
+   ],
+   [
+    633.3,
+    "SURVEY",
+    "lane 8 blocked -> working it from the other end"
+   ],
+   [
+    692.4,
+    "SURVEY",
+    "lane 9 blocked -> working it from the other end"
+   ],
+   [
+    795.6,
+    "VERIFY",
+    "item 5: verified neutralised"
+   ],
+   [
+    839.6,
+    "VERIFY",
+    "item 0: residual hazard -> re-task"
+   ],
+   [
+    854.6,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    904.2,
+    "VERIFY",
+    "item 1: verified neutralised"
+   ],
+   [
+    948.2,
+    "VERIFY",
+    "item 3: verified neutralised"
+   ],
+   [
+    993.8,
+    "VERIFY",
+    "item 2: verified neutralised"
+   ],
+   [
+    1045.4,
+    "VERIFY",
+    "item 4: verified neutralised"
+   ],
+   [
+    1081.4,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1118.9,
+    "MOP-UP SURVEY",
+    "mop-up lane 1 blocked -> working it from the other end"
+   ],
+   [
+    1222.2,
+    "MOP-UP SURVEY",
+    "mop-up lane 2 blocked -> working it from the other end"
+   ],
+   [
+    1343.0,
+    "MOP-UP SURVEY",
+    "mop-up lane 8 blocked -> working it from the other end"
+   ],
+   [
+    1466.7,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ],
+   [
+    1503.7,
+    "UNCOVER + IDENTIFY",
+    "clutter -> handed to operator, no unit placed"
+   ]
+  ]
+ }
+}

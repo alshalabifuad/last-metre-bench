@@ -1,0 +1,8 @@
+method,trials,violations,violation_rate,controller_exceeded_force_limit,planner_bound_exceeded,worst_load_over_threshold,p95_load_over_threshold,completed,median_time_s,p95_time_s,mean_offset_cm
+"position control, 15 cm/s",400,72,0.18,317,10,6.81,2.04,400,2.45,2.45,15.6
+"guarded move, 15 cm/s",400,130,0.325,400,10,5.91,2.66,400,0.64,0.75,15.6
+"guarded move, 3 cm/s (cautious)",400,5,0.013,0,10,1.57,0.62,400,2.08,2.64,15.6
+"barrier, worst-case stiffness, 15 cm/s",400,5,0.013,0,10,1.68,0.64,400,0.77,0.97,15.6
+"barrier, adaptive stiffness, 15 cm/s",400,5,0.013,0,10,1.68,0.64,400,0.76,0.95,15.6
+adaptive barrier + nominal planner,400,182,0.455,0,217,28.54,3.94,400,0.76,0.94,11.0
+adaptive barrier + 99.9 % planner,400,0,0.0,0,0,0.64,0.35,400,0.76,0.96,18.1
